@@ -1,15 +1,4 @@
-# ÉTAPE 3 — Feature Engineering & Leakage Audit
-## MASI Hybrid Forecasting System
-**Generated:** 2026-05-21
-**Input:** `outputs/etape1/splits/masi_clean_full.csv` + canonical split dates
-**Script:** `scripts/03_feature_engineering.py`
-**Notebook:** `notebooks/03_feature_engineering.ipynb`
-
-> Per `prompt.md` Étape 2 decisions: build derivative features (lags, rolling
-> stats, GARCH, RSI, MACD, Bollinger) with strict `shift(>=1)` discipline (L3),
-> then retrain the Random Forest as a sanity-check before adding HMM/CNN-LSTM.
-
----
+# Étape 3 — Feature Engineering & Leakage Audit
 
 ## 1. Methodology
 
