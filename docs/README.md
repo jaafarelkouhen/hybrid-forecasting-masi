@@ -5,6 +5,7 @@ Written documentation for the engine. Start with
 
 | File | Content |
 |---|---|
+| [`home.md`](home.md) | Sphinx / Read the Docs entry point (master doc). |
 | [`INDEX.md`](INDEX.md) | Pipeline status (steps 0→10), quick commands, final verdict. |
 | [`methodology.md`](methodology.md) | Architecture, components, validation discipline. |
 | [`anti_leakage.md`](anti_leakage.md) | The L1–L8 anti-leakage rules — the core methodological contract. |
@@ -12,7 +13,19 @@ Written documentation for the engine. Start with
 | [`literature_review.md`](literature_review.md) | Background and references. |
 | [`project_spec.md`](project_spec.md) | Original spec and historical constraints. |
 | [`migration_plan.md`](migration_plan.md) / [`README_legacy.md`](README_legacy.md) | Historical migration notes (kept for traceability). |
+| [`conf.py`](conf.py) + [`requirements.txt`](requirements.txt) | Sphinx config + build deps for Read the Docs. |
 
 > `docs/references/` (PDFs of papers + cloned third-party repos) is a **private
 > working bibliography** and is **gitignored** — it is not part of the published
 > deliverable.
+
+## Build the site
+
+```bash
+pip install -r docs/requirements.txt
+sphinx-build -b html docs docs/_build/html
+# open docs/_build/html/home.html
+```
+
+The hosted version on Read the Docs is driven by [`.readthedocs.yaml`](../.readthedocs.yaml)
+at the repo root and rebuilds on every push to `main`.

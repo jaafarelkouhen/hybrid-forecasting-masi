@@ -26,6 +26,9 @@ env/
 .DS_Store
 Thumbs.db
 
+# Sphinx / Read the Docs build output
+docs/_build/
+
 # Project artifacts
 outputs/
 data/raw/*
@@ -34,6 +37,8 @@ data/processed/*
 !data/**/.gitkeep
 reports/figures/*
 !reports/figures/.gitkeep
+!reports/figures/etape*/
+!reports/figures/etape*/*.png
 
 # External reference repos (kept on disk for inspiration, not versioned —
 # they live in their own upstream repos and trigger Windows MAX_PATH issues)
