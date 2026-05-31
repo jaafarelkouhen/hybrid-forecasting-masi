@@ -30,7 +30,10 @@ Thumbs.db
 docs/_build/
 
 # Project artifacts
-outputs/
+outputs/*
+!outputs/etape*/
+outputs/etape*/*
+!outputs/etape*/report.md
 data/raw/*
 data/interim/*
 data/processed/*
