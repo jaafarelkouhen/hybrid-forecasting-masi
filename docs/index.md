@@ -43,7 +43,17 @@ gallery
 :maxdepth: 2
 :caption: Methodology & rigor
 
+etape0
+etape1
+etape2
 anti_leakage
+etape4
+etape5
+etape6
+etape7
+etape8
+etape9
+etape10
 literature_review
 ```
 
