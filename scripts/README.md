@@ -30,4 +30,4 @@ logic lives in [`../src/`](../src/) and is exposed through the
 run the production stack once you understand the steps.
 
 Each step also writes a human-readable `report.md` in its `outputs/etapeN/`
-folder. See [`../docs/INDEX.md`](../docs/INDEX.md) for the full status table.
+folder. See [`../docs/pipeline_index.md`](../docs/pipeline_index.md) for the full status table.

@@ -1,12 +1,12 @@
 # `docs/`
 
 Written documentation for the engine. Start with
-[`INDEX.md`](INDEX.md) for the current step-by-step status table.
+[`pipeline_index.md`](pipeline_index.md) for the current step-by-step status table.
 
 | File | Content |
 |---|---|
-| [`home.md`](home.md) | Sphinx / Read the Docs entry point (master doc). |
-| [`INDEX.md`](INDEX.md) | Pipeline status (steps 0→10), quick commands, final verdict. |
+| [`index.md`](index.md) | Sphinx / Read the Docs entry point (master doc). |
+| [`pipeline_index.md`](pipeline_index.md) | Pipeline status (steps 0→10), quick commands, final verdict. |
 | [`methodology.md`](methodology.md) | Architecture, components, validation discipline. |
 | [`anti_leakage.md`](anti_leakage.md) | The L1–L8 anti-leakage rules — the core methodological contract. |
 | [`data_pipeline.md`](data_pipeline.md) | How data moves from raw to model-ready. |
@@ -24,7 +24,7 @@ Written documentation for the engine. Start with
 ```bash
 pip install -r docs/requirements.txt
 sphinx-build -b html docs docs/_build/html
-# open docs/_build/html/home.html
+# open docs/_build/html/index.html
 ```
 
 The hosted version on Read the Docs is driven by [`.readthedocs.yaml`](../.readthedocs.yaml)

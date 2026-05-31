@@ -43,7 +43,7 @@ source_suffix = {
     ".rst": "restructuredtext",
 }
 
-master_doc = "home"
+master_doc = "index"
 language = "en"
 
 exclude_patterns = [

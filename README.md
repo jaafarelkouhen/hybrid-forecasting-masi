@@ -314,5 +314,5 @@ stack**, DSR ≈ 0.997 under the historical protocol, robust to 5/10/20 bps cost
 stable P1 ≈ P2.
 
 Current artifacts live under `outputs/`, with figures in `reports/figures/`.
-See [`docs/INDEX.md`](docs/INDEX.md) for the current step-by-step index and
+See [`docs/pipeline_index.md`](docs/pipeline_index.md) for the current step-by-step index and
 [`docs/migration_plan.md`](docs/migration_plan.md) for the historical migration notes.

@@ -18,7 +18,7 @@ under a strict walk-forward anti-leakage methodology.
 
 ## Quick links
 
-- [Pipeline index (étapes 0 → 10)](INDEX.md)
+- [Pipeline index (étapes 0 → 10)](pipeline_index.md)
 - [Methodology](methodology.md)
 - [Anti-leakage rules (L1–L8)](anti_leakage.md)
 - [Data pipeline](data_pipeline.md)
@@ -35,7 +35,7 @@ under a strict walk-forward anti-leakage methodology.
 :maxdepth: 2
 :caption: Overview
 
-INDEX
+pipeline_index
 methodology
 data_pipeline
 gallery

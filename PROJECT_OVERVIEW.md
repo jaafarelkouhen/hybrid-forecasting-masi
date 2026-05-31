@@ -131,7 +131,7 @@ for generative answers.
 
 ## 6. Where to read next
 
-- Engine internals → [`README.md`](README.md), [`docs/INDEX.md`](docs/INDEX.md)
+- Engine internals → [`README.md`](README.md), [`docs/pipeline_index.md`](docs/pipeline_index.md)
 - Per-step code → [`scripts/README.md`](scripts/README.md), [`notebooks/README.md`](notebooks/README.md)
 - The package & CLI → [`src/README.md`](src/README.md)
 - Dashboard backend → `../dashbord-masi-hybrid-forecasting-01/app/README.md`

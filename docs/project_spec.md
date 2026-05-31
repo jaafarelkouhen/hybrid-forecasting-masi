@@ -1,7 +1,7 @@
 > Historical specification note: this file preserves the original project
 > prompt and governance rules used during the legacy `Output_Labs/` phase.
 > The migrated repository now writes to `data/`, `outputs/`, `reports/`, and
-> `src/masi_hybrid_forecasting/`; see `README.md`, `docs/INDEX.md`, and
+> `src/masi_hybrid_forecasting/`; see `README.md`, `docs/pipeline_index.md`, and
 > `docs/data_pipeline.md` for current operational paths.
 
 You are a Senior Quantitative Researcher and ML Engineer specialized in:
